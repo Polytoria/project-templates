@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.0-beta21",
+  "Version": "2.0.0-beta24",
   "FileType": 0,
   "Objects": [
     {
@@ -79,7 +79,7 @@
               "IsLinkedChild": false
             },
             {
-              "Name": "Part",
+              "Name": "Baseplate",
               "ClassName": "Part",
               "ID": "00dfbee5-3674-4d2e-898f-6435dfa2b39b",
               "Properties": {
@@ -121,7 +121,7 @@
                   5,
                   500
                 ],
-                "Locked": false,
+                "Locked": true,
                 "EditableChildren": false,
                 "Tags": []
               },
@@ -130,7 +130,7 @@
               "IsLinkedChild": false
             },
             {
-              "Name": "Part2",
+              "Name": "Spawn",
               "ClassName": "Part",
               "ID": "cd4fb8a1-e184-4188-ac4d-be81abba8989",
               "Properties": {
@@ -215,8 +215,8 @@
                   0
                 ],
                 "LocalRotation": [
-                  49.999996,
-                  -30.000006,
+                  49.999992,
+                  -30,
                   -0
                 ],
                 "LocalSize": [
@@ -304,6 +304,7 @@
             "StaminaRegen": 1.2,
             "UseHeadTurning": true,
             "UseBubbleChat": true,
+            "AutoLoadAppearance": true,
             "EditableChildren": false,
             "Tags": []
           },
